@@ -6,6 +6,6 @@ import java.util.List;
 
 
 public interface PlayerSpringDataRepository extends JpaRepository<Player, Integer> {
-    // NOTE: 
+    // NOTE:
     List<Player> findByNationality(String nationality);
 }
